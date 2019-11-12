@@ -1,6 +1,7 @@
 body {
-	width: 8.5in;
-	height: 11in;
+	width: 7.5in;
+	height: 10in;
+	margin: 0.5in;
 }
 
 div {
@@ -11,6 +12,15 @@ div {
 ul {
 	margin-block-start: 0em;
 	margin-block-end: 0em;	
+}
+
+.header {
+
+}
+
+.section {
+	padding-top: 5pt;
+	padding-bottom: 5pt;
 }
 
 #contact-left {
@@ -26,6 +36,7 @@ ul {
 }
 
 .section-h2 {
+	font-size: 14pt; 
 	font-weight: bold;
 }
 
@@ -48,6 +59,10 @@ ul {
 
 .job-employment-dates {
 	float: right;
+}
+
+.job-desc {
+	width: 75%;
 }
 
 .project-title {
